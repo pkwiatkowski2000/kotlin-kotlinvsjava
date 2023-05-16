@@ -12,5 +12,15 @@ fun main() {
     var wiekszaLiczba = 199L
 
     // Liczby zmiennoprzecinkowe
+    var liczbaDouble = 123.333
+    var liczbaFloat = 2222.12f
+
+    // Wartości logiczne
+    val wartoscBoolean: Boolean = false
+
+    //Pojedyncze znaki
+    var znak: Char = 'x'
+
+    var ciagZnakow: String = "piszemy ... 123!!!"
 
 }
