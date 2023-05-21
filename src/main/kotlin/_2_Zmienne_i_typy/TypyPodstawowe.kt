@@ -1,7 +1,6 @@
 package _2_Zmienne_i_typy
 
 fun main() {
-
     //Liczby całkowite
     var byte: Byte = 1
     var short: Short = 20

@@ -1,6 +1,5 @@
 package _Zadania_domowe
 fun main() {
-
 // 1. Zacznijmy od najbardziej popularnego programu "Witaj Świecie". Utwórz funkcję main i wypisz na ekran tekst "Witaj Świecie".
 
     println("Witaj Świecie")
