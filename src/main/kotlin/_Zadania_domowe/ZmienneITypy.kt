@@ -1,8 +1,8 @@
 package _Zadania_domowe
+fun main() {
 
 // 1. Zacznijmy od najbardziej popularnego programu "Witaj Świecie". Utwórz funkcję main i wypisz na ekran tekst "Witaj Świecie".
 
-fun main() {
     println("Witaj Świecie")
 
 // 2. Wklej poniższy kod do środowiska i popraw go, aby program zaczął uruchamiać się:
