@@ -1,4 +1,5 @@
 package _Zadania_domowe
+
 fun main() {
 // 1. Zamień poniższe wyrażenie !(x && y) || z na odpowiednik w kotlinie używając "and", "or".
 
