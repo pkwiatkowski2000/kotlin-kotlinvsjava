@@ -10,10 +10,12 @@ fun main() {
     max = if (max > c) max else c
     println(max)
 
+    println()
+
 // 2. Napisz program, który sprawdzi dla powyższych zmiennych czy dowolna suma a+b, a+c albo b+c daje wyniki równy 10.
-//Na przykład:
-//dla a=4, b=5, c=6 wypisz true, suma a+c daje 10,
-//dla a=1, b=5, c=10 wypisz false, bo żadna kombinacja nie daje 10.
+// Na przykład:
+// dla a=4, b=5, c=6 wypisz true, suma a+c daje 10,
+// dla a=1, b=5, c=10 wypisz false, bo żadna kombinacja nie daje 10.
 
     if (a + b == 10 || a + c == 10 || b + c == 10) {
         println("true")
@@ -25,6 +27,8 @@ fun main() {
         a + b, a + c, b + c -> println("true")
         else -> println("false")
     }
+
+    println()
 
 // 3. Do zmiennej "numerMiesiaca" przypisz liczbę. Wypisz nazwę miesiąca odpowiadającego tej liczbie. Następnie wypisz jaka to pora roku.
 

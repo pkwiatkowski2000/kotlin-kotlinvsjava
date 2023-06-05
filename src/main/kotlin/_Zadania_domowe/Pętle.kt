@@ -13,12 +13,16 @@ fun main() {
     }
     println(ileParzystych)
 
+    println()
+
 // 2. Wypisz od tyłu co trzecią liczbę od 100 do 1, czyli 100, 97, 94, 91, 88, …
 
     for (i in 100 downTo 1 step 3) {
         print(i)
         print(" ")
     }
+
+    println()
 
 // 3. Napisz algorytm, który posortuje rosnąco tablicę z zadania 1. (sortowanie bąbelkowe)
 // W razie potrzeby zapoznaj się z przykładowymi algorytmami sortowania w internecie. Przykładowe: sortowanie bąbelkowe, sortowanie przez wstawianie, sortowanie przez wybieranie.
