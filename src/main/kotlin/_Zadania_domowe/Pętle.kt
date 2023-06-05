@@ -29,12 +29,12 @@ fun main() {
 
     println()
 
-    for (i in 0..tab.size -1) {
+    for (i in 0..tab.size - 1) {
         for (j in 0..tab.size - 2) {
             if (tab[j] > tab[j + 1]) {
                 val tmp = tab[j]
                 tab[j] = tab[j + 1]
-                tab [j + 1] = tmp
+                tab[j + 1] = tmp
             }
         }
     }
