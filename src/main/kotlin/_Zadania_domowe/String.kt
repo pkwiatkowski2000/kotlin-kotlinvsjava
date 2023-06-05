@@ -64,18 +64,93 @@ fun main() {
         I p0wi@d@ wsk@zując n@ nieg0 przez kr@ty:
         "0wszem, niezły. Niczeg0! Szk0d@ tylk0, że g@rb@ty!"""".trimIndent()
 
-    var wierszCharArray = wiersz.toCharArray()
-    for (i in wierszCharArray.indices) {
-        if (wierszCharArray[i] == '0') {
-            wierszCharArray[i] = 'o'
-        }
+// var wierszCharArray = wiersz.toCharArray()
+// for (i in wierszCharArray.indices) {
+//     if (wierszCharArray[i] == '0') {
+//         wierszCharArray[i] = 'o'
+//        }
+//
+//     if (wierszCharArray[i] == '@') {
+//         wierszCharArray[i] = 'a'
+//        }
 
-        if (wierszCharArray[i] == '@') {
-            wierszCharArray[i] = 'a'
-        }
-    }
+// println(wierszCharArray)
 
-    println(wierszCharArray)
+    wiersz = wiersz.replace('0', 'o').replace('@', 'a')
 
+    println(wiersz)
 
+    println()
+
+// 3. Poniższy tekst musi zostać ocenzurowany. Zamień wszystkie słowa "kurcze" na "******".
+// Po przeprowadzeniu cenzury, wyświetl tekst, na końcu dodaj trzy znaki nowej linii i doklej zmienną informację.
+
+// Tekst do ocenzurowania:
+//
+// Kupił dziadek jajko w sklepie
+// I po brzuchu już się klepie
+// Naszykował szklankę z cukrem
+// Kogel mogel sobie utrę
+//
+// Naglę co to, awantura
+// Dziura w jajku w jajku dziura
+// A w tej dziurze kurcze blade
+// Kurcze blade wrzasnął dziadek
+//
+// Kurcze blade kurcze blade
+// I ze ściany porwał szpadę
+// Leci kurcze blade z trwogi
+// Za kurczęciem dziadek srogi
+//
+// Złapał dziadek kurcze blade
+// Zrobię z ciebie marmoladę
+// Marmolada lepsza z jabłka
+// Powiedziała trzeźwo babka
+//
+// Lepiej upiec kurcze blade
+// W piekarniku na obiadek
+// Jak wsadzili je do pieca
+// To dopiero była heca
+//
+// Bo uciekło z pieca dziurką
+// I zostało tylko piórko
+// Piórko blade piórko blade
+// Które zjadł na obiad dziadek
+
+    val informacja = "Informacja! Tekst został ocenzurowany."
+
+    var tekstDoOcenzurowania = """
+    Kupił dziadek jajko w sklepie
+    I po brzuchu już się klepie
+    Naszykował szklankę z cukrem
+    Kogel mogel sobie utrę
+     
+    Naglę co to, awantura
+    Dziura w jajku w jajku dziura
+    A w tej dziurze kurcze blade
+    Kurcze blade wrzasnął dziadek
+     
+    Kurcze blade kurcze blade
+    I ze ściany porwał szpadę
+    Leci kurcze blade z trwogi
+    Za kurczęciem dziadek srogi
+     
+    Złapał dziadek kurcze blade
+    Zrobię z ciebie marmoladę
+    Marmolada lepsza z jabłka
+    Powiedziała trzeźwo babka
+     
+    Lepiej upiec kurcze blade
+    W piekarniku na obiadek
+    Jak wsadzili je do pieca
+    To dopiero była heca
+     
+    Bo uciekło z pieca dziurką
+    I zostało tylko piórko
+    Piórko blade piórko blade
+    Które zjadł na obiad dziadek""".trimIndent()
+
+    val tekstOcenzurowany = tekstDoOcenzurowania.replace("kurcze", "******")
+
+    println("$tekstOcenzurowany \n\n\n$informacja")
 }
