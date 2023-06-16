@@ -1,10 +1,15 @@
 package _9_Klasy
 
-class Osoba3(var imie: String, var nazwisko: String) {
+class Osoba3(var imie3: String, var nazwisko3: String) {
 
-    var wiek: Int? = null
+    var wiek2: Int? = null
+    var adres: String? = null
 
-    constructor(imie: String, naziwsko: String, wiek: Int) : this(imie, nazwisko) {
+    constructor(imie3: String, nazwisko3: String, wiek2: Int) : this(imie3, nazwisko3) {
+        this.wiek2 = wiek2
+    }
 
+    constructor(imie3: String, nazwisko3: String, wiek2: Int, adres: String) : this(imie3, nazwisko3, wiek2) {
+        this.adres = adres
     }
 }
