@@ -6,6 +6,12 @@ class Programista(
     obowiazki: String,
     pensja: Int,
     var jezykProgramowania: String
-    ) : Pracownik(imie, nazwisko, obowiazki, pensja) {
+) : Pracownik(imie, nazwisko, obowiazki, pensja) {
 
+    override var lokalizacja: String = "Zdalnie"
+
+    override fun odmeldujSie() {
+        super.odmeldujSie()
+        println("Mój język programowania to: $jezykProgramowania")
     }
+}

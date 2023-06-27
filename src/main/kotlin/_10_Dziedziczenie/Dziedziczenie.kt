@@ -6,4 +6,12 @@ fun main() {
         "Adam", "Nowak", "programowanie aplikacji", 12000, "kotlin"
     )
 
+    pracownik.odmeldujSie()
+    programista.odmeldujSie()
+
+    var any = Any() // Object
+}
+
+class DowolnaKlasa : Any() {
+
 }
