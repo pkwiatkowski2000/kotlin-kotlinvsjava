@@ -1,4 +1,4 @@
-package _9_Klasy.model
+package _9_Klasy.Model
 
 class User constructor(var login: String, var password: String) {
     // JAVA: public / protected / private / brak modyfikatora

@@ -1,4 +1,4 @@
-import _9_Klasy.model.User
+import _9_Klasy.Model.User
 
 class External {
     fun default() {

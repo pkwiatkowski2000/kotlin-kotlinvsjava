@@ -1,4 +1,4 @@
-package _11_Klasy_różne_rodzaje
+package _11_Klasy_różne_rodzaje.KlasaAbstrakcyjna
 
 fun main() {
     var kot = Kot("Filemon")

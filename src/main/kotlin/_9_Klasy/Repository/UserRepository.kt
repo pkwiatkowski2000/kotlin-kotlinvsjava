@@ -1,6 +1,6 @@
-package _9_Klasy.repository
+package _9_Klasy.Repository
 
-import _9_Klasy.model.User
+import _9_Klasy.Model.User
 
 class UserRepository {
 
