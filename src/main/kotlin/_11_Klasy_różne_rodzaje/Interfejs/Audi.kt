@@ -1,6 +1,6 @@
 package _11_Klasy_różne_rodzaje.Interfejs
 
-class Audi : Samochod {
+class Audi : Samochod, Spalinowy {
 
     var uruchomiony: Boolean = false
 
@@ -12,5 +12,9 @@ class Audi : Samochod {
     override fun stop() {
         uruchomiony = false
         // wyłączanie systemów
+    }
+
+    override fun zatankuj(ilosc: Double) {
+        TODO("Not yet implemented")
     }
 }
