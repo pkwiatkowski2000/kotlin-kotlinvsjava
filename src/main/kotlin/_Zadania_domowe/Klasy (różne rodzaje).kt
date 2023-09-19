@@ -82,4 +82,5 @@ fun Matematyka() {
 
     wynik = Matematyka.dzielenie(a, b)
     println("$a / $b = $wynik")
+
 }
