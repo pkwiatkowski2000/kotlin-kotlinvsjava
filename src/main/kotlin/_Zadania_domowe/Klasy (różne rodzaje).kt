@@ -66,7 +66,7 @@ fun main() {
         }
     }
 
-fun main() {
+fun Matematyka() {
     var a = 9.0
     var b = 3.0
     var wynik: Double
